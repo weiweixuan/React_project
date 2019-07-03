@@ -2,21 +2,26 @@ import React from 'react'
 import './App.scss'
 import { Link, NavLink } from 'react-router-dom'
 import { connect } from 'react-redux'
-import { increaseFun, reduceFun } from './actions/main'
+import { Avatar, Button } from 'antd'
+import { increaseAction, reduceFun } from './actions/main'
 class App extends React.Component {
   render() {
     const {
-      main: { count },
+      main: { count, avatar_url },
       increases,
       reduces
     } = this.props
     return (
       <div className="App">
+        <Button type="primary">Button</Button>
+        <Avatar size="large" icon="user" src={avatar_url} />
         <div>
           {count}人
           <button
             onClick={() => {
-              increases()
+              increases({}, () => {
+                console.log('我是callback')
+              })
             }}
           >
             增加
@@ -72,7 +77,7 @@ const mapStateToProps = state => {
 }
 
 const mapDispatchToProps = dispatch => ({
-  increases: payload => dispatch(increaseFun(payload)),
+  increases: (payload, callback) => dispatch(increaseAction(payload, callback)),
   reduces: payload => dispatch(reduceFun(payload))
 })
 
