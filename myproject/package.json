@@ -35,5 +35,10 @@
   "devDependencies": {
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0"
-  }
+  },
+  "description": "react-router-dom",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
