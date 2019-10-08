@@ -1,10 +1,14 @@
 import React from 'react'
 import './App.scss'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { Avatar, Button } from 'antd'
-import { increaseAction, reduceFun } from './actions/main'
+import { increaseAction, reduceFun, getInfoAction } from './actions/main'
 class App extends React.Component {
+  componentDidMount() {
+    const { getInfoFun } = this.props
+    getInfoFun()
+  }
   render() {
     const {
       main: { count, avatar_url },
@@ -13,7 +17,23 @@ class App extends React.Component {
     } = this.props
     return (
       <div className="App">
-        <Button type="primary">Button</Button>
+        <Button
+          type="primary"
+          onClick={() => {
+            React.setLodding(true)
+          }}
+        >
+          显示
+        </Button>
+        <Button
+          type="primary"
+          onClick={() => {
+            console.log('444')
+            React.setLodding(false)
+          }}
+        >
+          关闭
+        </Button>
         <Avatar size="large" icon="user" src={avatar_url} />
         <div>
           {count}人
@@ -34,7 +54,7 @@ class App extends React.Component {
             减少
           </button>
         </div>
-        <a href="#/main/15">我是A标签跳转</a>
+        <a href="#/main/15">跳转主页</a>
         <button
           onClick={() => {
             return this.props.history.push({
@@ -43,7 +63,7 @@ class App extends React.Component {
             })
           }}
         >
-          我是带返回的js跳转
+          跳转个人页
         </button>
         <button
           onClick={() => {
@@ -53,7 +73,7 @@ class App extends React.Component {
             })
           }}
         >
-          我是不带返回的js跳转
+          重定向到个人页
         </button>
         <Link
           to={{
@@ -62,9 +82,13 @@ class App extends React.Component {
             state: { id: 1212 }
           }}
         >
-          Link跳转
+          跳转设置页
         </Link>
-        <NavLink to="/setting">NavLink跳转</NavLink>
+        <Link to={{ pathname: '/ex1' }}>跳转到案例1</Link>
+        <br></br>
+        <Link to="/todolist">去TODOlist</Link>
+        <br></br>
+        <Link to="/love">love</Link>
       </div>
     )
   }
@@ -78,7 +102,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => ({
   increases: (payload, callback) => dispatch(increaseAction(payload, callback)),
-  reduces: payload => dispatch(reduceFun(payload))
+  reduces: payload => dispatch(reduceFun(payload)),
+  getInfoFun: () => dispatch(getInfoAction())
 })
 
 export default connect(
