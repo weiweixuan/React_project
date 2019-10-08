@@ -5,9 +5,11 @@ import Router from './route/index'
 import * as serviceWorker from './serviceWorker'
 import { Provider } from 'react-redux'
 import store from './store/index'
+import Spin from './component/Spin/index'
 ReactDOM.render(
   <Provider store={store}>
     <Router />
+    <Spin></Spin>
   </Provider>,
   document.getElementById('root')
 )
