@@ -1,0 +1,12 @@
+.box_ {
+  display: flex;
+  .left {
+    flex-basis: 30%;
+    background: #ddd;
+    height: 100vh;
+  }
+  .right {
+    height: 100vh;
+    flex-basis: 70%;
+  }
+}

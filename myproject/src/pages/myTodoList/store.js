@@ -1,5 +1,4 @@
 import React, { createContext, useReducer } from 'react'
-import axios from 'axios'
 export const Store = createContext({})
 export const CHANGE_TYPE = 'CHANGE_TYPE'
 function reducer(state, action) {
