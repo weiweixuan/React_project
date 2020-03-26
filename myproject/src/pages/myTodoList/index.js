@@ -1,8 +1,8 @@
-import React from 'react'
-import MyInput from './Input'
-import MyList from './List'
-import { Provider } from './store'
-import './index.scss'
+import React from "react";
+import MyInput from "./Input";
+import MyList from "./List";
+import { Provider } from "./store";
+import "./index.scss";
 export default function MyTodoList() {
   return (
     <div className="box">
@@ -11,5 +11,5 @@ export default function MyTodoList() {
         <MyList></MyList>
       </Provider>
     </div>
-  )
+  );
 }

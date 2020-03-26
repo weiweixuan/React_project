@@ -1,0 +1,394 @@
+{
+  "id": "1450568",
+  "name": "一站式管理平台",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-ossp-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "577319",
+      "name": "问号",
+      "font_class": "wenhao",
+      "unicode": "e72d",
+      "unicode_decimal": 59181
+    },
+    {
+      "icon_id": "587372",
+      "name": "WAF",
+      "font_class": "waf",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "588631",
+      "name": "RDS",
+      "font_class": "rds",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    },
+    {
+      "icon_id": "816811",
+      "name": "redis",
+      "font_class": "redis",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    },
+    {
+      "icon_id": "839818",
+      "name": "服务请求",
+      "font_class": "fuwuqingqiu",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "867013",
+      "name": "变更",
+      "font_class": "biangeng",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "912119",
+      "name": "圈子_sel",
+      "font_class": "iconquanzisel",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "1172712",
+      "name": "快递",
+      "font_class": "post",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "1196909",
+      "name": "internet",
+      "font_class": "internet",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "1374106",
+      "name": "巡检_轨迹",
+      "font_class": "xunjianguiji",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "1390105",
+      "name": "应急资源",
+      "font_class": "yingjiziyuan",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "2057529",
+      "name": "ads-data",
+      "font_class": "ads",
+      "unicode": "e722",
+      "unicode_decimal": 59170
+    },
+    {
+      "icon_id": "2057540",
+      "name": "odps-data",
+      "font_class": "odps",
+      "unicode": "e727",
+      "unicode_decimal": 59175
+    },
+    {
+      "icon_id": "2166579",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "2166693",
+      "name": "监控",
+      "font_class": "jiankong",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "2187795",
+      "name": "清理缓存",
+      "font_class": "qinglihuancun",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "2692787",
+      "name": "remind",
+      "font_class": "remind",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "2967035",
+      "name": "符号-英文",
+      "font_class": "switching-English",
+      "unicode": "e712",
+      "unicode_decimal": 59154
+    },
+    {
+      "icon_id": "2967036",
+      "name": "符号-中文",
+      "font_class": "switching-Chinese",
+      "unicode": "e713",
+      "unicode_decimal": 59155
+    },
+    {
+      "icon_id": "3069808",
+      "name": "勾",
+      "font_class": "right",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "3876341",
+      "name": "nginx",
+      "font_class": "nginx",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "4471486",
+      "name": "返回",
+      "font_class": "goback",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "4562513",
+      "name": "紧急告警",
+      "font_class": "weiwangguanicon-defuben-",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "4685747",
+      "name": "时间",
+      "font_class": "Group-",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "4991522",
+      "name": "一级-数据保护伞",
+      "font_class": "yiji-shujubaohusan",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "5177440",
+      "name": "不提醒",
+      "font_class": "remind-no",
+      "unicode": "e7ff",
+      "unicode_decimal": 59391
+    },
+    {
+      "icon_id": "5330820",
+      "name": "圆点",
+      "font_class": "circle",
+      "unicode": "e7c2",
+      "unicode_decimal": 59330
+    },
+    {
+      "icon_id": "5387426",
+      "name": "水位传感器",
+      "font_class": "shuiweichuanganqi",
+      "unicode": "ead2",
+      "unicode_decimal": 60114
+    },
+    {
+      "icon_id": "5583368",
+      "name": "drds 分布式关系型数据库服务 DRD",
+      "font_class": "drds",
+      "unicode": "e8a7",
+      "unicode_decimal": 59559
+    },
+    {
+      "icon_id": "5583376",
+      "name": "edas 企业级分布式应用服务EDAS",
+      "font_class": "edas",
+      "unicode": "e8a9",
+      "unicode_decimal": 59561
+    },
+    {
+      "icon_id": "5583406",
+      "name": "mq 消息队列MQ",
+      "font_class": "mq",
+      "unicode": "e8b0",
+      "unicode_decimal": 59568
+    },
+    {
+      "icon_id": "5583410",
+      "name": "oss 对象存储OSS",
+      "font_class": "oss",
+      "unicode": "e8b1",
+      "unicode_decimal": 59569
+    },
+    {
+      "icon_id": "5583413",
+      "name": "ots 表格存储",
+      "font_class": "ots",
+      "unicode": "e8b2",
+      "unicode_decimal": 59570
+    },
+    {
+      "icon_id": "5583421",
+      "name": "slb 负载均衡SLB",
+      "font_class": "slb",
+      "unicode": "e8b3",
+      "unicode_decimal": 59571
+    },
+    {
+      "icon_id": "6298978",
+      "name": "事件告警",
+      "font_class": "event2",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "6429636",
+      "name": "事件",
+      "font_class": "shijian",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "6882987",
+      "name": "告警事件",
+      "font_class": "event1",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "7762174",
+      "name": "重启",
+      "font_class": "ziyuanxhdpi",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "7962576",
+      "name": "no",
+      "font_class": "error",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "8348148",
+      "name": "通知",
+      "font_class": "bell",
+      "unicode": "e720",
+      "unicode_decimal": 59168
+    },
+    {
+      "icon_id": "8953050",
+      "name": "monitor",
+      "font_class": "monitor",
+      "unicode": "e820",
+      "unicode_decimal": 59424
+    },
+    {
+      "icon_id": "11072612",
+      "name": "109-需求管理",
+      "font_class": "-xuqiuguanli",
+      "unicode": "e839",
+      "unicode_decimal": 59449
+    },
+    {
+      "icon_id": "12000601",
+      "name": "alarm",
+      "font_class": "alarm",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "12000955",
+      "name": "ossp-equipment",
+      "font_class": "equipment",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "12000987",
+      "name": "ossp-finish",
+      "font_class": "finish",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "12103031",
+      "name": "云",
+      "font_class": "yun",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "12533834",
+      "name": "problem",
+      "font_class": "problem",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "12533892",
+      "name": "date",
+      "font_class": "date1",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "12544064",
+      "name": "project",
+      "font_class": "project",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "12544065",
+      "name": "Work order",
+      "font_class": "Workorder",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "12544070",
+      "name": "client",
+      "font_class": "client",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "12577165",
+      "name": "时间",
+      "font_class": "Group--copy",
+      "unicode": "ead3",
+      "unicode_decimal": 60115
+    },
+    {
+      "icon_id": "12577811",
+      "name": "变更",
+      "font_class": "biangeng-copy",
+      "unicode": "ead5",
+      "unicode_decimal": 60117
+    },
+    {
+      "icon_id": "12862273",
+      "name": "规则",
+      "font_class": "guize",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "12862278",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    }
+  ]
+}

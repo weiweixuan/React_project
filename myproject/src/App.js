@@ -16,9 +16,9 @@ class App extends React.Component {
       reduces
     } = this.props
     return (
-      <div className="App">
+      <div className='App'>
         <Button
-          type="primary"
+          type='primary'
           onClick={() => {
             React.setLodding(true)
           }}
@@ -26,7 +26,7 @@ class App extends React.Component {
           显示
         </Button>
         <Button
-          type="primary"
+          type='primary'
           onClick={() => {
             console.log('444')
             React.setLodding(false)
@@ -34,7 +34,7 @@ class App extends React.Component {
         >
           关闭
         </Button>
-        <Avatar size="large" icon="user" src={avatar_url} />
+        <Avatar size='large' icon='user' src={avatar_url} />
         <div>
           {count}人
           <button
@@ -54,7 +54,7 @@ class App extends React.Component {
             减少
           </button>
         </div>
-        <a href="#/main/15">跳转主页</a>
+        <a href='#/main/15'>跳转主页</a>
         <button
           onClick={() => {
             return this.props.history.push({
@@ -63,7 +63,7 @@ class App extends React.Component {
             })
           }}
         >
-          跳转个人页
+          跳转个人页<i className={`iconfont icon-ossp-yun`}></i>
         </button>
         <button
           onClick={() => {
@@ -86,11 +86,12 @@ class App extends React.Component {
         </Link>
         <Link to={{ pathname: '/ex1' }}>跳转到案例1</Link>
         <br></br>
-        <Link to="/todolist">去TODOlist</Link>
+        <Link to='/todolist'>去TODOlist</Link>
         <br></br>
-        <Link to="/love">love</Link>
+        <Link to='/love'>love</Link>
         <br></br>
-        <Link to="/second/">二级嵌套路由</Link>
+        <Link to='/second/'>二级嵌套路由</Link> &nbsp;&nbsp;&nbsp;&nbsp;
+        <Link to='/lazy/'>懒加载</Link>
       </div>
     )
   }
@@ -108,7 +109,4 @@ const mapDispatchToProps = dispatch => ({
   getInfoFun: () => dispatch(getInfoAction())
 })
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(App)
+export default connect(mapStateToProps, mapDispatchToProps)(App)

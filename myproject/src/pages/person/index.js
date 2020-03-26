@@ -18,7 +18,7 @@ export default class Person extends Component {
     return (
       <>
         <div
-          className="person"
+          className='person'
           onClick={() => {
             this.props.history.goBack()
           }}
@@ -31,7 +31,7 @@ export default class Person extends Component {
             ref={dom => {
               this.dom = dom
             }}
-            className="demo"
+            className='demo'
           >
             我是测试组件
           </div>

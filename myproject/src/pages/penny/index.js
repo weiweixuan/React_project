@@ -1,31 +1,22 @@
-import React, { Component } from 'react'
-import { connect } from 'react-redux'
-import { getChangeAction } from '../../actions/penny'
-class Penny extends Component {
-  render() {
-    return (
-      <>
-        <div>penny</div>
-        <p>{this.props.penny.title}</p>
-        <button
-          onClick={() => {
-            this.props.getChange()
-          }}
-        >
-          触发dispatch
-        </button>
-      </>
-    )
-  }
+import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { getChangeAction } from "../../actions/penny";
+function Penny() {
+  const state = useSelector(mapStateToProps);
+  const dispatch = useDispatch();
+  return (
+    <>
+      <div>penny</div>
+      <p>{state.penny.title}</p>
+      <button
+        onClick={() => {
+          dispatch(getChangeAction());
+        }}
+      >
+        触发dispatch
+      </button>
+    </>
+  );
 }
-let mapStateToProps = ({ penny }) => ({ penny })
-
-let mapDispatchToProps = dispatch => ({
-  getChange(payload) {
-    dispatch(getChangeAction(payload))
-  }
-})
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Penny)
+let mapStateToProps = ({ penny }) => ({ penny });
+export default Penny;
